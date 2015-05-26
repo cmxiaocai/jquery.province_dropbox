@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<script src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="jquery.province_dropbox.js"></script>
+	<!-- <script type="text/javascript" src="province_data.js"></script> -->
+</head>
+<body>
+
+省份:<span id='dropbox1'></span><br>
+省份:<span id='dropbox2'></span>
+
+<script>
+// $.inittown(post值, 区位码);
+$('#dropbox1').inittown('town1');
+$('#dropbox2').inittown('town2','350881');
+</script>
+
+<!--
+<span id='dropbox1'>
+	<select>...</select>
+	<select>...</select>
+	<select name='town1'>...</select>
+</span>
+-->
+
+</body>
+</html>
